@@ -32,6 +32,11 @@
   cursor: pointer;
 }
 
+.img-card__user a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 .img-card__user span:hover {
   text-decoration: underline;
 }

@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.75rem;
+  margin-block-end: 3.5rem;
+}
+
+.post {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.post img {
+  inline-size: 18rem;
+  block-size: 18rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.post img:hover {
+  filter:brightness(0.7);
+}

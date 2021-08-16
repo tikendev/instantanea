@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.75rem;
+  margin: auto;
+  max-inline-size: 935px;
+}

@@ -1,0 +1,40 @@
+.footer {
+  font-size: .6875rem;
+  color: rgba(149, 149, 149, 0.52);
+  inline-size: inherit;
+  block-size: 90px;
+  max-inline-size: 300px;
+  text-align: start;
+}
+
+.footer nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  line-height: 13px;
+  text-align: start;
+  padding: 0;
+}
+
+.footer nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  margin-inline-end: 1px;
+}
+
+.footer nav ul li:first-of-type {
+  list-style: none;
+}
+
+.footer nav {
+  margin-block-end: 1.5rem;
+}
+
+.footer span {
+  cursor: pointer;
+}
+
+.footer a:active,
+.footer span:active {
+  color: rgba(149, 149, 149, 0.356);
+}

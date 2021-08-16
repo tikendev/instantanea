@@ -1,0 +1,156 @@
+.img-container {
+
+}
+
+.img-card {
+  background: var(--white);
+  border: 1px solid rgba(219,219,219,1);
+  border-radius: 3px;
+  margin-block-end: 1.5rem;
+}
+
+
+/* FIRST BLOCK */
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  /* border-top: 1px solid rgba(219,219,219,1);
+  border-right: 1px solid rgba(219,219,219,1);
+  border-left: 1px solid rgba(219,219,219,1);
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem; */
+  align-items: center;
+}
+
+.img-card__user {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  font: var(--textBold);
+  cursor: pointer;
+}
+
+.img-card__user span:hover {
+  text-decoration: underline;
+}
+
+.img-card__user .box img {
+  display: flex;
+  border-radius: 50%;
+  padding: 2px;
+  background: white;
+  block-size: 32px;
+  inline-size: 32px;
+  cursor: pointer;
+}
+
+.img-card__user .box {
+  background: linear-gradient(to bottom, #B239AF,#FE9F3E);
+  padding: 2px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.08));
+  border-radius: 50%;
+}
+
+.userInfo .icon-more {
+  cursor: pointer;
+}
+
+/* PHOTOGRAPHY SECTION */
+
+.img-card__photo img {
+  inline-size: 100%;
+}
+
+/* ACTIONS SECTION */
+
+.img-card__actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.img-card__actions .left-actions {
+  display: flex;
+  gap: 1rem;
+
+}
+.img-card__actions .left-actions, .right-actions {
+  cursor: pointer;
+}
+
+/* TEXT SECTION */
+
+.img-card__text {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.img-card__text > * {
+  margin: 0;
+  font-size: .875rem;
+}
+
+.img-card__text .likes, .user-name {
+  font-weight: bold;
+}
+
+.img-card__text .commentary-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.lastInfo {
+  font-size: .625rem;
+  margin-block-end: .5rem;
+}
+
+.lastInfo span:first-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* COMMENTS SECTION */
+
+.img-card__comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 3.5rem;
+  border-top: 1px solid #EFEFEF;
+  padding: 0 1rem;
+}
+
+.img-card__comments .left-items {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.img-card__comments .comment {
+  flex: 2;
+  inline-size: 28rem;
+}
+
+.comment input {
+  border: none;
+  outline: none;
+  color: var(--black2);
+}
+
+.comment input::-webkit-input-placeholder {
+  font: var(--fontBase);
+  color: #BFBFBF;
+}
+
+.img-card__comments .publishButton {
+  background-color: transparent;
+  border: none;
+  font-size: .875rem;
+  font: var(--fontBase);
+  color: var(--blue1);
+  cursor: pointer;
+  padding: 0;
+}

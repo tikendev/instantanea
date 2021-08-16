@@ -1,0 +1,39 @@
+.header {
+  block-size: 3.375rem;
+  display: block;
+  position: sticky;
+  top: 0;
+  background: var(--white);
+  z-index: 1;
+  border-block-end: 1px solid var(--gray);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 6rem;
+}
+
+.header-container .logo {
+  float: left;
+  margin-top: .5rem;
+}
+
+.search input {
+  border-radius: .25rem;
+  padding: 4px 10px;
+  font-size: .875rem;
+  color: #262626;
+  outline: none;
+  border: 1px solid var(--gray);
+  inline-size: 13rem;
+  block-size: 1.75rem;
+  line-height: 1.125rem;
+  background-color: var(--background);
+}
+
+.search input::-webkit-input-placeholder {
+  font: var(--fontBase);
+  color: #BFBFBF;
+}

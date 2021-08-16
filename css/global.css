@@ -1,0 +1,42 @@
+:root {
+
+  /* COLORS */
+
+  --black: #000;
+  --black2: #262626;
+  --white: #fff;
+  --gray: #DBDBDB;
+  --blue1: #3898F3;
+  --blue2: #306197;
+  --gradient-color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  --brand-2: #ED4756;
+  --background: #FAFAFA;
+
+  /* FONTS */
+
+  --fontBase: 'Roboto', sans-serif;
+  --textBold: bold .875rem/1rem var(--fontBase);
+  --text1: normal .875rem/1rem var(--fontBase);
+  --text2: normal .75rem/.875rem var(--fontBase);
+  --text3: normal .625rem/.875rem var(--fontBase);
+  --profileText: normal 1rem/1.125rem var(--fontBase);
+  --profileNumber: bold 1rem/1.125rem var(--fontBase);
+  --button: bold 1rem/auto var(--fontBase);
+}
+
+
+body {
+  background: var(--background);
+  font-family: var(--fontBase);
+  margin: 0;
+  color: var(--black2);
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.75rem;
+  margin-block-start: 1.5rem;
+}

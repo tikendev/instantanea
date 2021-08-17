@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.75rem;
-  margin-block-end: 3.5rem;
+  margin-block-end: 1rem;
 }
 
 .post {

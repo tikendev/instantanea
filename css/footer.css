@@ -35,6 +35,34 @@
 }
 
 .footer a:active,
-.footer span:active {
+.footer span:active,
+.profile-footer li a:active {
   color: rgba(149, 149, 149, 0.356);
+}
+
+.profile-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: .75rem;
+  color: #8e8e8e;
+  margin-block-end: 4rem;
+}
+
+.profile-footer ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.profile-footer ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.profile-footer span {
+  margin-block-start: .5rem;
 }

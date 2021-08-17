@@ -1,0 +1,110 @@
+.flex__igtv {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 1rem;
+  gap: 1.75rem;
+}
+
+
+.igtv-section__menu {
+  display: flex;
+  justify-content: space-between;
+  block-size: 2.875rem;
+}
+
+.igtv-section__menu span {
+  font-size: .875rem;
+  font-weight: 600;
+  color: #8e8e8e;
+  letter-spacing: 1px;
+}
+
+.flex__igtv .line {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.line .container {
+  inline-size: 212px;
+  block-size: 330px;
+  background: url("../assets/images/igtv1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+
+.line .container.background {
+  background: url("../assets/images/igtv2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container.background1 {
+  background: url("../assets/images/igtv3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container.background2 {
+  background: url("../assets/images/igtv4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container.background3 {
+  background: url("../assets/images/igtv5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container.background4 {
+  background: url("../assets/images/igtv6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container.background5 {
+  background: url("../assets/images/igtv7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container.background6 {
+  background: url("../assets/images/igtv8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line .container:hover {
+  filter: brightness(.7);
+}
+
+.line .container .minute {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: .8;
+  text-transform: uppercase;
+  color: var(--white);
+  text-align: end;
+  padding: 12px;
+}
+
+.line .container .title {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--white);
+  top: 260px;
+  padding: 12px;
+}

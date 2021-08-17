@@ -1,0 +1,24 @@
+.button {
+  background: transparent;
+  color: currentColor;
+  border-radius: 4px;
+  height: 1.875rem;
+  padding: 5px 9px;
+  font-weight: 600;
+  border: 1px solid #DBDBDB;
+  cursor: pointer;
+  font-family: var(--buton);
+  font-size: .875rem;
+}
+
+
+.button.secondary {
+  background: var(--blue-button);
+  color: var(--white);
+  inline-size: 5rem;
+  block-size: 2rem;
+}
+
+.button:active {
+  filter: opacity(.7);
+}

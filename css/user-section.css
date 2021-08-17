@@ -53,23 +53,6 @@
   font-weight: 400;
 }
 
-.user-description__top .button {
-  background: transparent;
-  color: currentColor;
-  border-radius: 4px;
-  height: 1.875rem;
-  padding: 5px 9px;
-  font-weight: 600;
-  border: 1px solid #DBDBDB;
-  cursor: pointer;
-  font-family: var(--buton);
-  font-size: .875rem;
-}
-
-.user-description__top .button:active {
-  /* filter:brightness(0.9); */
-  filter: opacity(.7);
-}
 
 .user-description__middle {
   display: flex;

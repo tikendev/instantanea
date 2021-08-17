@@ -31,9 +31,26 @@
   block-size: 1.75rem;
   line-height: 1.125rem;
   background-color: var(--background);
+  text-align: center;
 }
+
+.search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  left: 3.8rem;
+  top: calc(50% - .4rem);
+  z-index: 1;
+  font-size: .75rem;
+  color: #8F8F8F;
+}
+
 
 .search input::-webkit-input-placeholder {
   font: var(--fontBase);
-  color: #BFBFBF;
+  color: #8F8F8F;
+  text-align: center;
+  margin-inline-end: -12px;
 }
